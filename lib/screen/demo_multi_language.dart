@@ -20,28 +20,24 @@ class _MultiLanguagePageState extends State<MultiLanguagePage> {
           children: <Widget>[
             Padding(
               padding: const EdgeInsets.all(15.0),
-              child: Row(
-                children: <Widget>[
-                  TextField(
-                    controller: _textEditingController,
-                    keyboardType: TextInputType.number,
-                    decoration: InputDecoration(
-                      hintText: tr("hintText"),
-                      labelText: tr("titleText"),
-                      labelStyle: TextStyle(color: Colors.green),
-                      hintStyle: TextStyle(color: Colors.black),
-                      icon: Icon(
-                        Icons.attach_money,
-                        color: Colors.blue,
-                      ),
-                    ),
-                    onChanged: (String string) {
-                      setState(() {
-                        // TODO
-                      });
-                    },
+              child: TextField(
+                controller: _textEditingController,
+                keyboardType: TextInputType.number,
+                decoration: InputDecoration(
+                  hintText: tr("hintText"),
+                  labelText: tr("titleText"),
+                  labelStyle: TextStyle(color: Colors.green),
+                  hintStyle: TextStyle(color: Colors.black),
+                  icon: Icon(
+                    Icons.attach_money,
+                    color: Colors.blue,
                   ),
-                ],
+                ),
+                onChanged: (String string) {
+                  setState(() {
+                    // TODO
+                  });
+                },
               ),
             ),
             Padding(
