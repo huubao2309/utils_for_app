@@ -7,9 +7,29 @@ class MultiLanguagePage extends StatefulWidget {
 }
 
 class _MultiLanguagePageState extends State<MultiLanguagePage> {
+  TextEditingController _textEditingController = new TextEditingController();
+
+  @override
+  void initState() {
+    super.initState();
+    _textEditingController = TextEditingController();
+  }
+
+  void dispose() {
+    _textEditingController.dispose();
+    super.dispose();
+  }
+
   @override
   Widget build(BuildContext context) {
-    TextEditingController _textEditingController = new TextEditingController();
+    String formatText = NumberFormat.currency(
+            locale: EasyLocalization.of(context).locale.languageCode,
+            symbol: '')
+        .format(
+      (_textEditingController.text.isEmpty
+          ? 0
+          : double.parse(_textEditingController.text)),
+    );
     return Scaffold(
       appBar: AppBar(
         title: Text('title').tr(context: context),
@@ -33,11 +53,17 @@ class _MultiLanguagePageState extends State<MultiLanguagePage> {
                     color: Colors.blue,
                   ),
                 ),
-                onChanged: (String string) {
+                onChanged: (string) {
                   setState(() {
-                    // TODO
+                    // TODO: Bug can't change with dot decimal: 123.45 with Vietnamese
                   });
                 },
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(15.0),
+              child: Text(
+                formatText,
               ),
             ),
             Padding(
