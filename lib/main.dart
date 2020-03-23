@@ -1,8 +1,7 @@
-import 'dart:developer';
-
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:utils_for_app/screen/demo_multi_language.dart';
 
 void main() => runApp(
       EasyLocalization(
@@ -29,29 +28,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(),
-    );
-  }
-}
-
-class MyHomePage extends StatefulWidget {
-  @override
-  _MyHomePageState createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  @override
-  Widget build(BuildContext context) {
-    // Change Locale of App
-    EasyLocalization.of(context).locale = Locale("vi", "VN");
-
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("title").tr(context: context),
-      ),
-      body: Center(
-        child: Text("content").tr(context: context),
-      ),
+      home: MultiLanguagePage(),
     );
   }
 }

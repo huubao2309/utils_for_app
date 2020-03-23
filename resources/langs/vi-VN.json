@@ -1,4 +1,9 @@
 {
   "title": "Xin chào",
-  "content": "Xin chào mọi người!"
+  "content": "Xin chào mọi người!",
+  "textButtonEnglish": "Chuyển sang English",
+  "textButtonVietNam": "Chuyển sang VietNam",
+  "hintText": "Nhập vào...",
+  "titleText": "Tiền",
+  "symbol": "VND"
 }

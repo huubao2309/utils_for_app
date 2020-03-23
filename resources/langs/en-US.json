@@ -1,4 +1,9 @@
 {
   "title": "Hello",
-  "content": "Hello everybody!"
+  "content": "Hello everybody!",
+  "textButtonEnglish": "Translate English",
+  "textButtonVietNam": "Translate VietNam",
+  "hintText": "Input Text...",
+  "titleText": "Money",
+  "symbol": "$"
 }
