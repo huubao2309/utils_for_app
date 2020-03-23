@@ -42,12 +42,15 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
+    // Change Locale of App
+    EasyLocalization.of(context).locale = Locale("vi", "VN");
+
     return Scaffold(
       appBar: AppBar(
         title: Text("title").tr(context: context),
       ),
       body: Center(
-        child: Text('Abc'),
+        child: Text("content").tr(context: context),
       ),
     );
   }
