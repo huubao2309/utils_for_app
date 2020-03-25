@@ -1,16 +1,21 @@
-# utils_for_app
+# Utils for Flutter App
 
-A new Flutter project.
+![Utils App_Change](https://github.com/huubao2309/utils_for_app/blob/master/images/change_theme_translate.gif)
+![Utils App_Input](https://github.com/huubao2309/utils_for_app/blob/master/images/input_money_phone.gif)
 
-## Getting Started
+## Setup
 
-This project is a starting point for a Flutter application.
+### 1. Project has use libs at `pubspec.yaml` file:
 
-A few resources to get you started if this is your first Flutter project:
+```dart
+dependencies:
+  easy_localization: ^2.0.1+2
+  flutter_masked_text: ^0.8.0
+  provider: ^3.2.0
+```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### 2. Source Code:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```dart
+  ...
+```
