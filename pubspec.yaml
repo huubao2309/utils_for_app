@@ -25,6 +25,7 @@ dependencies:
   cupertino_icons: ^0.1.2
   easy_localization: ^2.0.1+2
   cool_ui: "^0.4.0"
+  flutter_masked_text: ^0.8.0
 
 dev_dependencies:
   flutter_test:

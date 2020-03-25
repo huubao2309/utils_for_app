@@ -54,9 +54,7 @@ class _MultiLanguagePageState extends State<MultiLanguagePage> {
                   ),
                 ),
                 onChanged: (string) {
-                  setState(() {
-                    // TODO: Bug can't change with dot decimal: 123.45 with Vietnamese
-                  });
+                  setState(() {});
                 },
               ),
             ),
