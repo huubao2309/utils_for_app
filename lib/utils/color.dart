@@ -20,7 +20,7 @@ class AppColor {
   static MaterialColor primaryLightThemeColor =
       MaterialColor(0xffffde03, color); // yellow
   static MaterialColor accentLightThemeColor =
-      MaterialColor(0xffff6960, color); // pink
+      MaterialColor(0xff000000, color); // black
 
   // Dark Mode
   static MaterialColor primaryDarkThemeColor =

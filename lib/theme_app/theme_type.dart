@@ -17,6 +17,8 @@ class ThemeState extends ChangeNotifier {
     return _isDarkTheme ? ThemeType.DARK : ThemeType.LIGHT;
   }
 
+  String get themeName => _isDarkTheme ? 'DARK' : 'LIGHT';
+
   ThemeType get theme => _isDarkTheme ? ThemeType.DARK : ThemeType.LIGHT;
   set theme(ThemeType type) => setTheme(type);
 

@@ -4,6 +4,11 @@
   "textButtonEnglish": "Translate English",
   "textButtonVietNam": "Translate VietNam",
   "hintText": "Input Text...",
-  "titleText": "Money",
-  "symbol": "$"
+  "money": "Money",
+  "symbol": "$",
+  "changeTheme": "Change Theme",
+  "phone": "Phone",
+  "isTheme": "This is {} theme",
+  "vietnam": "VietNam",
+  "usa": "USA"
 }

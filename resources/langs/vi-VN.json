@@ -4,6 +4,11 @@
   "textButtonEnglish": "Chuyển sang English",
   "textButtonVietNam": "Chuyển sang VietNam",
   "hintText": "Nhập vào...",
-  "titleText": "Tiền",
-  "symbol": "VND"
+  "money": "Tiền",
+  "symbol": "VND",
+  "changeTheme": "Đổi chủ đề",
+  "phone": "Điện thoại",
+  "isTheme": "Đây là {} theme",
+  "vietnam": "Viet Nam",
+  "usa": "Hoa Kỳ"
 }

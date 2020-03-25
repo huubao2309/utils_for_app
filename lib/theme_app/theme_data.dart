@@ -14,6 +14,15 @@ class ThemeApp {
           fontSize: SizeApp.sizeText,
           fontWeight: FontWeight.bold,
         ),
+        body2: TextStyle(
+          color: AppColor.accentDarkThemeColor,
+          fontSize: SizeApp.contentText,
+          fontWeight: FontWeight.normal,
+        ),
+      ),
+      buttonTheme: ButtonThemeData(
+        buttonColor: AppColor.primaryDarkThemeColor,
+        textTheme: ButtonTextTheme.primary,
       ),
     );
   }
@@ -29,6 +38,10 @@ class ThemeApp {
           fontSize: SizeApp.sizeText,
           fontWeight: FontWeight.bold,
         ),
+      ),
+      buttonTheme: ButtonThemeData(
+        buttonColor: AppColor.primaryLightThemeColor,
+        textTheme: ButtonTextTheme.primary,
       ),
     );
   }
