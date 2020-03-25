@@ -1,6 +1,11 @@
 # Utils for Flutter App
 
+## Change Theme and Language:
+
 ![Utils App_Change](https://github.com/huubao2309/utils_for_app/blob/master/images/change_theme_translate.gif)
+
+## Format when inputting money or phone:
+
 ![Utils App_Input](https://github.com/huubao2309/utils_for_app/blob/master/images/input_money_phone.gif)
 
 ## Setup
